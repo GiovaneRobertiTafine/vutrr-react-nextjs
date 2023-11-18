@@ -1,0 +1,26 @@
+main {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+    @media (max-width: 991px) {
+        width: 70%;
+    }
+
+    @media (max-width: 768px) {
+        width: 90%;
+    }
+}
+
+.title-vuttr {
+    margin: 10px 0px;
+}
+
+.link-title {
+    font: normal normal 600 24px/30px SourceSans3 !important;
+    color: #184d7e !important;
+}
+
+.tag-searched {
+    background-color: #FFDDA1;
+}

@@ -1,0 +1,7 @@
+.box-check-inline {
+    margin-left: 0rem;
+
+    @media (min-width: 768px) {
+        margin-left: 1rem;
+    }
+}

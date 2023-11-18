@@ -1,0 +1,32 @@
+.modal-backdrop {
+    width: 100vw;
+    bottom: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    top: 0;
+    left: 0;
+    background-color: #00000033;
+    z-index: 99999;
+    position: absolute;
+
+    @media (max-width: 768px) {
+        align-items: start;
+
+    }
+}
+
+.modal {
+    width: 500px;
+    // height: 500px;
+    position: absolute;
+    z-index: 99999;
+    margin-top: calc(100vh - 50vh);
+    transform: translateY(- 50%);
+
+    @media (max-width: 768px) {
+        max-width: 95%;
+        // max-height: 700px;
+    }
+}
